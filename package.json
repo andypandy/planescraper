@@ -1,0 +1,12 @@
+{
+  "name": "aso_scraper",
+  "version": "0.0.1",
+  "description": "Scrapes ASO for airplane data",
+  "author": "Andrew Samuelsen",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "scraper": "0.0.9",
+    "request": "~2.33.0",
+    "jsdom": "~0.9.0"
+  }
+}
