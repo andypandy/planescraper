@@ -17,7 +17,9 @@ scraper({
 			}
 		});
 
-		var sum = prices.reduce(function(a, b) { return a + b });
+		var sum = prices.reduce(function(a, b) { 
+			return a + b;
+		});
 		var avg = sum / prices.length;
 
 		console.log('Cessna 172 Prices');
